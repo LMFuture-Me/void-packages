@@ -7,7 +7,7 @@ hostmakedepends="pkg-config gettext doxygen extra-cmake-modules libzhuyin"
 makedepends="libfcitx5-devel fmt-devel opencc-devel fcitx5-lua-devel
  libzhuyin-devel libpinyin-utils"
 short_desc="Fcitx5 - zhuyin IME"
-maintainer="Đoàn Trần Công Danh <congdanhqx@gmail.com>"
+maintainer="LMFuture <2835365572zty@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://fcitx-im.org/wiki/Fcitx"
 _model_version=20161206
