@@ -62,7 +62,7 @@ libpinyin-devel_package() {
 	 libpinyin-common-devel-${version}_${revision}"
 	short_desc+=" - development files"
 	pkg_install() {
-		vmove "usr/include/libpinyin-2.8.1/pinyin*"
+		vmove "usr/include/libpinyin-${version}/pinyin*"
 		vmove usr/lib/pkgconfig/libpinyin.pc
 		vmove "usr/lib/libpinyin.so"
 		vmove "usr/lib/libpinyin.a"
