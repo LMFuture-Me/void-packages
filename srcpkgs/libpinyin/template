@@ -53,7 +53,7 @@ libpinyin-utils_package() {
 libpinyin-common-devel_package() {
 	short_desc="Common files for libpinyin and libzhuyin"
 	pkg_install() {
-		vmove "usr/include/libpinyin-2.8.1/novel*"
+		vmove "usr/include/libpinyin-${version}/novel*"
 	}
 }
 
