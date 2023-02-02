@@ -74,7 +74,7 @@ libzhuyin-devel_package() {
 	 libpinyin-devel-${version}_${revision}"
 	short_desc="${short_desc/PinYin/ZhuYin} - development files"
 	pkg_install() {
-		vmove "usr/include/libpinyin-2.8.1/zhuyin*"
+		vmove "usr/include/libpinyin-${version}/zhuyin*"
 		vmove usr/lib/pkgconfig/libzhuyin.pc
 		vmove usr/lib/libzhuyin.a
 		vmove usr/lib/libzhuyin.so
